@@ -23,7 +23,7 @@ fetch("./data/opportunities.json")
             <h2>${job.title}</h2>
 
             <p>
-            <strong>Type:</strong> ${job.type}
+            <strong>Type:</strong>$job.type}
             </p>
 
             <p>
