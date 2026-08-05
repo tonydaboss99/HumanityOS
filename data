@@ -1,0 +1,36 @@
+opportunities.json
+[
+  {
+    "id": 1,
+    "title": "Social Media Assistant",
+    "type": "Remote",
+    "skills": [
+      "marketing",
+      "social media",
+      "writing"
+    ],
+    "description": "Help organizations create and manage online content."
+  },
+  {
+    "id": 2,
+    "title": "Customer Support Specialist",
+    "type": "Remote",
+    "skills": [
+      "communication",
+      "support",
+      "problem solving"
+    ],
+    "description": "Help customers solve problems and answer questions."
+  },
+  {
+    "id": 3,
+    "title": "Data Entry Specialist",
+    "type": "Remote",
+    "skills": [
+      "organization",
+      "typing",
+      "attention to detail"
+    ],
+    "description": "Help businesses organize information."
+  }
+]
