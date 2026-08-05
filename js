@@ -2,7 +2,7 @@ fetch("./data/opportunities.json")
 .then(response => {
 
     if (!response.ok) {
-        throw new Error("load opportunities");
+        throw new("load opportunities");
     }
 
     return response.json();
