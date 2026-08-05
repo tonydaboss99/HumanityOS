@@ -31,28 +31,29 @@ HumanityOS will help discover opportunities that fit you.
 <form>
 
 <label>Name:</label><br>
-<input type="text"><br><br>
+<input id="worker-name" type="text">
 
 <label>Email:</label><br>
-<input type="email"><br><br>
+<input id="worker-email" type="email">
 
 <label>Your Skills:</label><br>
-<textarea></textarea><br><br>
+<textarea id="worker-skills"></textarea>
 
 <label>What type of work interests you?</label><br>
-<textarea></textarea><br><br>
+<textarea id="worker-interests"></textarea>
 
 <label>Experience:</label><br>
-<textarea></textarea><br><br>
+<textarea id="worker-experience"></textarea>
 
-<label>Hours available:</label><br>
-<input type="text"><br><br>
+<input id="worker-hours" type="text">
+<input id="worker-name" type="text">
 
-<button type="submit">
-Join HumanityOS
+<button type="button" onclick="createWorkerProfile()">
+Join HumanityOS™
 </button>
 
 </form>
+<script src="js/worker-profile.js"></script>
 
 </body>
 
