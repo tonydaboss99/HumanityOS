@@ -1,5 +1,4 @@
-dashboard.js
-function runMatchTest() {
+dashboard.jsfunction runMatchTest() {
 
     let workerSkills = [
         "writing",
