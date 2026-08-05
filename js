@@ -44,12 +44,12 @@ fetch("./data/opportunities.json")
     });
 
 })
-.catch(error => {
+.catch(=> {
 
     document.getElementById("jobs-list").innerHTML =
     "load opportunities.";
 
-    console.log(error);
+    console.log(go);
 
 });
 worker-profile.js
