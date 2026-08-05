@@ -1,2 +1,27 @@
 workers.json
+[
+  {
+    "id": 1,
+    "name": "Example Worker",
+    "skills": [
+      "marketing",
+      "writing",
+      "social media"
+    ],
+    "experience": "Beginner",
+    "availability": "Remote"
+  }
+]
 businesses.json
+[
+  {
+    "id": 1,
+    "name": "Example Organization",
+    "needs": [
+      "marketing",
+      "social media"
+    ],
+    "budget": "Flexible",
+    "location": "Remote"
+  }
+]
