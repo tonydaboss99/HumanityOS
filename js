@@ -2,7 +2,7 @@ fetch("./data/opportunities.json")
 .then(response => {
 
     if (!response.ok) {
-        throw new Error("Unable to load opportunities");
+        throw new Error("load opportunities");
     }
 
     return response.json();
@@ -47,7 +47,7 @@ fetch("./data/opportunities.json")
 .catch(error => {
 
     document.getElementById("jobs-list").innerHTML =
-    "Unable to load opportunities.";
+    "load opportunities.";
 
     console.log(error);
 
