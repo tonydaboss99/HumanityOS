@@ -29,4 +29,4 @@ fetch("./data/opportunities.json")
     document.getElementById("jobs-list").innerHTML =
     error.message;
 
-});
+}
