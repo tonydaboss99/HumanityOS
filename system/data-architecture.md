@@ -26,8 +26,7 @@ The system will:
 2. Store data
 3. Analyze skills
 4. Recommend matches
-matching-engine.js
-function matchWorker(workerSkills, opportunitySkills) {
+matching-engine.jsfunction matchWorker(workerSkills, opportunitySkills) {
 
     let matches = 0;
 
