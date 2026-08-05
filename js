@@ -52,3 +52,30 @@ fetch("./data/opportunities.json")
     console.log(error);
 
 });
+worker-profile.js
+function createWorkerProfile() {
+
+    const worker = {
+        id: Date.now(),
+
+        name: document.getElementById("worker-name").value,
+
+        email: document.getElementById("worker-email").value,
+
+        skills: document.getElementById("worker-skills").value,
+
+        interests: document.getElementById("worker-interests").value,
+
+        experience: document.getElementById("worker-experience").value,
+
+        availability: document.getElementById("worker-hours").value
+    };
+
+
+    console.log(worker);
+
+    alert(
+        "HumanityOS™ profile created for " + worker.name
+    );
+
+}
