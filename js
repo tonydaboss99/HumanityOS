@@ -38,3 +38,42 @@ function runMatchTest() {
     }
 
 }
+fetch("data/opportunities.json")
+.then(response => response.json())
+.then(opportunities => {
+
+    let jobsList = document.getElementById("jobs-list");
+
+    jobsList.innerHTML = "";
+
+    opportunities.forEach(job => {
+
+        let jobCard = document.createElement("div");
+
+        jobCard.innerHTML = `
+            <h2>${job.title}</h2>
+
+            <p>Type: ${job.type}</p>
+
+            <p>
+            Skills: ${job.skills.join(", ")}
+            </p>
+
+            <p>${job.description}</p>
+
+            <hr>
+        `;
+
+        jobsList.appendChild(jobCard);
+
+    });
+
+})
+.catch(error => {
+
+    document.getElementById("jobs-list").innerHTML =
+    "Unable to load opportunities.";
+
+    console.log(error);
+
+});
