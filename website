@@ -1,1 +1,27 @@
-website/index.html
+website/index.html <!DOCTYPE html>
+<html>
+<head>
+    <title>HumanityOS</title>
+</head>
+
+<body>
+
+<h1>HumanityOS</h1>
+
+<h2>Every person. Every skill. Every opportunity.</h2>
+
+<p>
+HumanityOS connects people with unique work opportunities
+based on their abilities, interests, and goals.
+</p>
+
+<button>
+Join HumanityOS
+</button>
+
+<button>
+Find Talent
+</button>
+
+</body>
+</html>
